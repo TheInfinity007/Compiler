@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link type="text/css" href="./style.css" rel="stylesheet">
+    <title>Code Editor</title>
+
+</head>
+<body>
+	<div class="container">
+		<div class="question"><h1>Write a program to find the factorial of a number</h1></div>
+		<div class="wrapper">
+			<h3>Type Your Code</h3>
+			<select name="language" id="language">
+				<option value="0">Python</option>
+				<option value="4">Javascript</option>
+				<option value="7">C</option>
+				<option value="77">CPP</option>
+				<option value="8">Java</option>
+			</select>
+		</div>
+		<div class="editor-wrapper">
+			<div id="editor">print("HELLO WORLD")</div>	
+		</div>
+		<div class="console-wrapper">
+			<p>OUTPUT:</p>
+
+		</div>
+		<div class="">
+			<button class="btn-compile" id="btn-compile">Compile</button>
+		</div>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.5/ace.js" type="text/javascript" charset="utf-8" type="text/javascript"></script>
+	<script src="./script.js"></script>
+</body>
+</html>
+
+<!-- Error is coming when we are requesting
+
+Access to XMLHttpRequest at 'https://codequotient.com/api/executeCode' from origin 'null' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. -->
